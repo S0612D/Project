@@ -1,0 +1,105 @@
+/* Overall page styles */
+@font-face {
+    font-family: 'wedding';
+    src: url(fonts/Weddingday.ttf);
+}
+@font-face {
+    font-family: 'baro';
+    src: url(fonts/BaroqueScript.ttf);
+}
+@font-face {
+    font-family: 'quick';
+    src: url(fonts/Quicksand-Light.ttf);
+}
+
+@font-face {
+    font-family: 'margit';
+    src: url(fonts/MargitaSignature.ttf);
+}
+
+@font-face {
+    font-family: 'mich' ;
+    src: url(fonts/Michv2.ttf);
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'quick', sans-serif;
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Main content styles */
+.admired-person {
+    text-align: center;
+    margin: 20px;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #333;
+    border-radius: 50%;
+}
+
+.name {
+    font-family: 'baro';
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Admirable Qualities styles */
+.qualities {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Why I Admire styles */
+.admire {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin: 0;
+}
